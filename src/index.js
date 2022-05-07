@@ -11,9 +11,6 @@ const theme = extendTheme({
       200: "#7BA8F9",
       300: "#D3E5FE"
     },
-  },
-  config: {
-    initialColorMode: 'dark',
   }
 })
 

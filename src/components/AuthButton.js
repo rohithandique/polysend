@@ -16,7 +16,7 @@ export default function AuthButton(props) {
 
     const uauth = new UAuth({
         clientID: 'd7d3de00-0e81-49c0-ba51-1f622211cd4b',
-        redirectUri: 'http://localhost:3000/',
+        redirectUri: 'https://polysend.vercel.app/',
       
         // Must include both the openid and wallet scopes.
         scope: 'openid wallet email:optional',
