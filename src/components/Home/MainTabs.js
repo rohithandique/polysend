@@ -2,7 +2,7 @@ import React from 'react'
 import Amounts from './FormTabs/Amounts';
 import Addresses from './FormTabs/Addresses';
 import Token from './FormTabs/Token';
-import SupportedNetworks from './SupportedNetworks';
+import SupportedNetworks from './FormTabs/SupportedNetworks';
 
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Center, Box, useColorModeValue, 
     Button, Switch, FormControl, FormLabel, Tooltip, Grid, GridItem, useToast 
@@ -13,6 +13,7 @@ import { useAuth } from 'contexts/AuthContext';
 
 import convertStringAddrToArr from 'utils/convertStringAddrToArr';
 import convertStringAmountAddrToArr from 'utils/convertStringAmountAddrToArr';
+import Transak from 'components/Transak';
 
 export default function MainTabs() {
 
@@ -178,6 +179,7 @@ export default function MainTabs() {
         </Box>
     </Center>
     <SupportedNetworks />
+    <Transak />
     </>
   )
 }
