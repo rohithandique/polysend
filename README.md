@@ -8,7 +8,7 @@ Repo - [https://github.com/rohithandique/polysend](https://github.com/rohithandi
 Website (WIP) - [https://polysend.vercel.app/](https://polysend.vercel.app/)
 
 ### Recorded Video
-Youtube - []()
+Youtube - [https://www.youtube.com/watch?v=08yjIyOeHsE](https://www.youtube.com/watch?v=08yjIyOeHsE)
 
 ### Contact Info
 - Discord ID - punneditji#6966
